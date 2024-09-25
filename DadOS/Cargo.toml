@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 
 [profile.dev]
-panic = "abort"
+panic = "abort" # Desativa o desempilhamento em caso de panic
 
 [profile.release]
-panic = "abort"
+panic = "abort" # Desativa o desempilhamento em caso de panic
