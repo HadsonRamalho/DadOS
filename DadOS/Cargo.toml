@@ -10,3 +10,4 @@ panic = "abort" # Desativa o desempilhamento em caso de panic
 
 [profile.release]
 panic = "abort" # Desativa o desempilhamento em caso de panic
+
