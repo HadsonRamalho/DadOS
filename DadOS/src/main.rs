@@ -15,4 +15,4 @@ pub extern "C" fn _start() -> !{
     loop{}
 }
 
-// Compilar com o target em 'thumbv7em-none-eabihf'
+// Compilar com o target em 'x86_64-blog_os.json'
