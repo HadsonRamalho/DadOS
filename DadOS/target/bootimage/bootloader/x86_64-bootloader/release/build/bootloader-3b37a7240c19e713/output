@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=C:\Users\Hadson\Documents\DadOS\DadOS\Cargo.toml
+cargo:rustc-link-search=native=C:\Users\Hadson\Documents\DadOS\DadOS\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-3b37a7240c19e713\out
+cargo:rustc-link-lib=static=kernel_bin-DadOS
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=\\?\C:\Users\Hadson\Documents\DadOS\DadOS\target\x86_64-blog_os\debug\DadOS
+cargo:rerun-if-changed=build.rs
